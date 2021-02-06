@@ -20,7 +20,7 @@ function removeLoadingSpinner() {
 // get Quote from API
 async function getQuote() {
     showLoadingSpinner();
-    const apiUrl = 'http://api.quotable.io/random';
+    const apiUrl = 'https://api.quotable.io/random';
 
     try {
         const response = await fetch(apiUrl);
